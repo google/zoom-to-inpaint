@@ -1,0 +1,13 @@
+# go/google3metadata
+# proto-file: devtools/metadata/metadata.proto
+# proto-message: MetaData
+
+name: "zoom-to-inpaint"
+description: "Repository for Zoom-to-Inpaint: Image Inpainting with High Frequency Details"
+
+third_party {
+  url: {
+    type: LOCAL_SOURCE
+    value: "http://google3/'third_party/zoom_to_inpaint"
+  }
+}

@@ -1,0 +1,6 @@
+tensorflow==2.4.0
+absl_py==0.10.0
+numpy==1.19.4
+opencv_python==4.4.0.46
+tensorflow_datasets==4.1.0
+absl==0.0

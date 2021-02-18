@@ -1,0 +1,10 @@
+"""third_party/zoom_to_inpaint import configuration."""
+
+load("//devtools/copybara/library/workflow", "exclude_paths", "git_to_third_party")
+
+git_to_third_party(
+    url = "https://github.com/google-research/zoom-to-inpaint",
+    git_files = exclude_paths([".gitignore"]),
+    google3_path = "third_party/zoom_to_inpaint",
+    google3_exclude = [],
+)
