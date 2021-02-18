@@ -1,6 +1,6 @@
 # Zoom-to-Inpaint: Image Inpainting with High Frequency Details
 
-Reference code for the paper [Zoom-to-Inpaint: Image Inpainting with High Frequency Details](https://arxiv.org/).
+Reference code for the paper [Zoom-to-Inpaint: Image Inpainting with High Frequency Details](https://arxiv.org/pdf/2012.09401.pdf).
 
 Soo Ye Kim, Kfir Aberman, Nori Kanazawa, Rahul Garg, Neal Wadhwa, Huiwen Chang, Nikhil Karnad, Munchurl Kim, Orly Liba, arXiv, 2020. If you use this code or our dataset, please cite our paper:
 
