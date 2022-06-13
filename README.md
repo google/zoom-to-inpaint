@@ -1,17 +1,15 @@
 # Zoom-to-Inpaint: Image Inpainting with High Frequency Details
 
-Reference code for the paper [Zoom-to-Inpaint: Image Inpainting with High Frequency Details](https://arxiv.org/pdf/2012.09401.pdf).
+Reference code for the paper [Zoom-to-Inpaint: Image Inpainting with High Frequency Details](https://arxiv.org/pdf/2012.09401.pdf), presented at the New Trends in Image Restoration and Enhancement (NTIRE) Workshop held in conjunction with CVPR 2022.
 
-Soo Ye Kim, Kfir Aberman, Nori Kanazawa, Rahul Garg, Neal Wadhwa, Huiwen Chang, Nikhil Karnad, Munchurl Kim, Orly Liba, arXiv, 2020. If you use this code or our dataset, please cite our paper:
+If you find our repo useful, please consider citing our paper:
 
 ```
-@misc{kim2020zoomtoinpaint,
-      title={Zoom-to-Inpaint: Image Inpainting with High Frequency Details}, 
-      author={Soo Ye Kim and Kfir Aberman and Nori Kanazawa and Rahul Garg and Neal Wadhwa and Huiwen Chang and Nikhil Karnad and Munchurl Kim and Orly Liba},
-      year={2020},
-      eprint={2012.09401},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{kim2022zoomtoinpaint,
+      title = {Zoom-to-Inpaint: Image Inpainting with High Frequency Details}, 
+      author = {Soo Ye Kim and Kfir Aberman and Nori Kanazawa and Rahul Garg and Neal Wadhwa and Huiwen Chang and Nikhil Karnad and Munchurl Kim and Orly Liba},
+      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+      year = {2022}
 }
 ```
 
@@ -21,7 +19,7 @@ The required libraries can be viewed in requirements.txt, and can be downloaded 
 
 `pip install -r requirements.txt`
 
-The training pipelines are implemented with tf.distribute.MirroredStrategy() for distributed learning with up to 8 GPUs on a single worker. Note that the training codes also work on a single GPU or CPUs without any required modification.
+The training pipelines are implemented with `tf.distribute.MirroredStrategy()` for distributed learning with up to 8 GPUs on a single worker. Note that the training codes also work on a single GPU or CPUs without any modification of the code.
 
 ## Training
 Go through these steps to follow the training scheme in our paper:
@@ -53,14 +51,14 @@ Go through these steps to follow the training scheme in our paper:
 ## Testing
 
 ### Directory structure
-* Add the provided data under a directory named 'data'
-* Add the provided checkpoints under a directory named 'ckpt'
+* Download the test data from [here](https://drive.google.com/file/d/1DOoB0YD4FhT8-fm1rB22Vr7jshNpUN_J/view?usp=sharing) and put it under a directory named `data`
+* Download the pretrained checkpoint from [here](https://drive.google.com/file/d/1OtANy4Xjx1ev2OpdfohnNXKpnQOPyrjp/view?usp=sharing) and put it under a directory named `ckpt`
 
 ```
 Zoom-to-Inpaint
 ├── ckpt
 │    ├── checkpoint
-│    ├── ckpt-1500.data
+│    ├── ckpt-1500.data-00000-of00001
 │    └── ckpt-1500.index
 └── data
      ├── div2k
