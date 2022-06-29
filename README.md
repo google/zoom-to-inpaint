@@ -7,7 +7,7 @@ If you find our repo useful, please consider citing our paper:
 ```bibtex
 @inproceedings{kim2022zoomtoinpaint,
       title = {Zoom-to-Inpaint: Image Inpainting with High Frequency Details}, 
-      author = {Soo Ye Kim and Kfir Aberman and Nori Kanazawa and Rahul Garg and Neal Wadhwa and Huiwen Chang and Nikhil Karnad and Munchurl Kim and Orly Liba},
+      author = {Kim, Soo Ye and Aberman, Kfir and Kanazawa, Nori and Garg, Rahul and Wadhwa, Neal and Chang, Huiwen and Karnad, Nikhil and Kim, Munchurl and Liba, Orly},
       booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
       year = {2022}
 }
