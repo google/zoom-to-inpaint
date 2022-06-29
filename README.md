@@ -4,7 +4,7 @@ Reference code for the paper [Zoom-to-Inpaint: Image Inpainting with High Freque
 
 If you find our repo useful, please consider citing our paper:
 
-```
+```bibtex
 @inproceedings{kim2022zoomtoinpaint,
       title = {Zoom-to-Inpaint: Image Inpainting with High Frequency Details}, 
       author = {Soo Ye Kim and Kfir Aberman and Nori Kanazawa and Rahul Garg and Neal Wadhwa and Huiwen Chang and Nikhil Karnad and Munchurl Kim and Orly Liba},
